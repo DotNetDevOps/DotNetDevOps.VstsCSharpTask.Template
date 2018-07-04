@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+
+    <metadata>
+        <!-- The identifier that must be unique within the hosting gallery -->
+        <id>DotNetDevOps.Vsts.CSharp.Template</id>
+
+        <!-- The package version number that is used when resolving dependencies -->
+        <version>2.1.1-pre</version>
+
+        <!-- Authors contain text that appears directly on the gallery -->
+        <authors>Poul K. Sørensen</authors>
+
+       
+        <description>VSTS C# Template</description>
+ <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+
+    </metadata>
+	<files>
+    <file src="content\**\*" target="content" />
+  </files>
+
+</package>

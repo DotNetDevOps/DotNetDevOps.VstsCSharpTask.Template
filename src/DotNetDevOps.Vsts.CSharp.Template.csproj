@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="S-Innovations.VSTeamServices.TaskBuilder" Version="2.1.1" />
+  </ItemGroup>
+
+  <Target Name="Test1" AfterTargets="Publish">
+    <Exec Command="dotnet $(PublishDir)$(AssemblyName).dll --build"></Exec>
+  </Target>
+  
+</Project>
