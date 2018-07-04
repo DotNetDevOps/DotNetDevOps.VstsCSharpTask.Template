@@ -1,11 +1,11 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "Poul K. Sørensen",
-  "classifications": [ "VSTS", "Task" ],
-  "identity": "DotNetDevOps.Vsts.CSharp.Template",
+  "classifications": [ "VSTS", "Task","csharp" ],
+  "identity": "DotNetDevOps.VstsCSharpTask.Template",
   "name": "VSTS C# Task Template",
   "shortName": "vsts-csharp-task",
-  "sourceName": "DotNetDevOps.Vsts.CSharp.Template",
+  "sourceName": "DotNetDevOps.VstsCSharpTask.Template",
   "symbols": {
     "taskId": {
       "type": "generated",

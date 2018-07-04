@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: Guid("00000000-0000-0000-0000-000000000000")]
 [assembly: AssemblyDescription("Generate Visual Studio Team Services Tasks using S-Innovations Task Library")]
 
-namespace DotNetDevOps.Vsts.CSharp.Template
+namespace DotNetDevOps.VstsCSharpTask.Template
 {
 
     [EntryPoint("MyHelloWorldFromCSharp")]

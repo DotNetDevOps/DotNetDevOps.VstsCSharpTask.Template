@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27825.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetDevOps.Vsts.CSharp.Template", "src\DotNetDevOps.Vsts.CSharp.Template.csproj", "{ACB947DB-7189-4F09-9BFC-F7C27EF2AB79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetDevOps.VstsCSharpTask.Template", "src\DotNetDevOps.VstsCSharpTask.Template.csproj", "{ACB947DB-7189-4F09-9BFC-F7C27EF2AB79}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{489E6394-B0D2-4C46-A788-CFE6C91F29FD}"
 	ProjectSection(SolutionItems) = preProject
