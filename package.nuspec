@@ -19,7 +19,7 @@
 
     </metadata>
 	<files>
-    <file src="content\**\*" target="content" />
+    <file src="src\**\*" target="content" />
   </files>
 
 </package>
